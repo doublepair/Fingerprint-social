@@ -1,0 +1,19 @@
+.RowElement {
+    margin-left: 8px;
+    margin-top: 10px;
+    font-weight: 700;
+    padding: 7px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.RowElement:hover {
+    background-color: rgb(255, 162, 255);
+    border-radius: 5px;
+}
+
+.RowIcon {
+    font-size: 28px;
+    margin-right: 7px;
+}

@@ -1,0 +1,62 @@
+.Post {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0px 5px 10px -1px rgb(133, 133, 133);
+    border-radius: 10px;
+}
+ 
+.Post-Body > img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Post-Header {
+    padding: 5px;
+    position: relative;
+    display: inline;
+    align-items: center;
+}
+
+.Post-Header-Profile {
+    display: flex;
+    align-items: center;
+}
+
+.Post-Header > h2 {
+    margin-top: 10px;
+}
+
+.Post-User-Pic {
+    margin: 10px 10px;
+}
+
+.Post-Header > h6 {
+    font-style: italic;
+    font-variant: small-caps;
+    color: rgb(126, 126, 126);
+}
+
+.Post-Bottom {
+    color:rgb(186, 186, 186);
+    display: flex;
+    justify-content: space-evenly;
+    border-top: 2px solid rgb(227, 227, 227);
+    padding-top: 5px;
+    border-radius: 999px;
+    margin-bottom: 5px;
+}
+
+.Post-Bottom-Button {
+    border-radius: 999px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    margin-right: 5px;
+    margin-left: 10px;
+}
+.Post-Bottom-Button:hover {
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}
